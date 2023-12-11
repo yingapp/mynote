@@ -30,7 +30,7 @@
             if (!isPlaying) {
                 return
             }
-
+            timer.cancel()
             currentPlayer.stop()
             isPlaying = false
         }
