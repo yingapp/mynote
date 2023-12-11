@@ -18,7 +18,6 @@
 
             timer.schedule(object : TimerTask() {
                 override fun run() {
-                    currentPlayer.stop()
                     currentPlayer =
                         if (currentPlayer == mediaPlayer1) mediaPlayer2 else mediaPlayer1
                     currentPlayer.start()
