@@ -1,4 +1,4 @@
-#kotlin轮播，重叠1秒
+# kotlin轮播，重叠1秒
 ```
     class LoopMediaPlayer(context: Context, resId: Int) {
 
